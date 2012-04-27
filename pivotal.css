@@ -25,10 +25,18 @@ div#header {
     display: none;
 }
 
+/* === Velocity ==== */
+
 #velocity {
     position: absolute;
     right: 320px;
     top: 6px;
+}
+
+/* hide disclosure arrow */
+
+#controlPanel div#velocity .velocityLabel {
+    background: 0 none;
 }
 
 #controlPanel #controls_search_velocity_row {
