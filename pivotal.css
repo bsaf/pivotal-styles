@@ -1,0 +1,68 @@
+/* ==== Hide ==== */
+
+div#header {
+    display: none;
+}
+
+/* ==== Get rid of shadows ==== */
+
+.iterationHeader {
+    background: #444;
+}
+
+.panelHeaderLeft, .panelHeaderRight {
+    display: none;
+}
+
+/* ==== Control panel ==== */
+
+#controlPanel {
+    height: 38px;
+    margin-bottom: 11px;
+}
+
+#controlPanel #project_name_row div.projectName {
+    display: none;
+}
+
+#velocity {
+    position: absolute;
+    right: 320px;
+    top: 6px;
+}
+
+#controlPanel #controls_search_velocity_row {
+    margin-top: 1px;
+}
+
+#controlPanel #controls_search_velocity_row > div.right {
+    margin-top: -3px;
+}
+
+/* ==== Panel headers ==== */
+
+.panelHeader {
+    background-color: #FFF;
+    color: #AAA;
+    padding-left: 5px;
+    margin-bottom: 11px;
+}
+
+.panelTitle {
+    color: #AAA;
+    text-transform: lowercase;
+    font-size: 22px;
+}
+
+/* ==== No background striping! ==== */
+
+.endOfList {
+    background: #AEB6B9;
+}
+
+/* ==== Hide the comment badge ==== */
+
+.storyPreviewText {
+    padding-left: 53px;
+}
+
