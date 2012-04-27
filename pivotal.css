@@ -63,6 +63,7 @@ div#header {
 }
 
 /* only show column action buttons on hover */
+
 .panelLink {
     opacity: 0;
     -webkit-transition: 0.2s;
@@ -74,8 +75,14 @@ div#header {
 
 /* ==== No background striping! ==== */
 
+.items > div.inner, .endOfList {
+    background: #FFFFFF;
+}
+
+/* no bottom-border at the end of the list */
+
 .endOfList {
-    background: #AEB6B9;
+    border: 0 none;
 }
 
 /* ==== Hide the comment badge ==== */
