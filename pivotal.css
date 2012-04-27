@@ -66,3 +66,9 @@ div#header {
     padding-left: 53px;
 }
 
+/* ==== Items ==== */
+
+.storyPreviewHeader, .epicPreviewHeader {
+    padding: 6px 2px;
+}
+
