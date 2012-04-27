@@ -4,6 +4,11 @@ div#header {
     display: none;
 }
 
+/* ==== Transitions ==== */
+.panelLink, #controlPanel {
+    -webkit-transition: 0.2s;
+}
+
 /* ==== Get rid of shadows ==== */
 
 .iterationHeader {
@@ -19,6 +24,11 @@ div#header {
 #controlPanel {
     height: 38px;
     margin-bottom: 11px;
+    opacity: 0.3;
+}
+
+#controlPanel:hover {
+    opacity: 1;
 }
 
 #controlPanel #project_name_row div.projectName {
@@ -66,7 +76,6 @@ div#header {
 
 .panelLink {
     opacity: 0;
-    -webkit-transition: 0.2s;
 }
 
 .panelHeader:hover .panelLink {
