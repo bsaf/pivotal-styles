@@ -98,6 +98,10 @@ div#header {
     border: 0 none;
 }
 
+.list > .btm .mid {
+    background: 0 none;
+}
+
 /* remove list image borders */
 
 .list, .items {
