@@ -85,6 +85,12 @@ div#header {
     border: 0 none;
 }
 
+/* remove list image borders */
+
+.list, .items {
+    background: 0 none;
+}
+
 /* ==== Hide the comment badge ==== */
 
 .storyPreviewText {
