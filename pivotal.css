@@ -5,6 +5,7 @@ div#header {
 }
 
 /* ==== Transitions ==== */
+
 .panelLink, #controlPanel {
     -webkit-transition: 0.2s;
 }
@@ -61,13 +62,12 @@ div#header {
 
 .panelHeader {
     background-color: #FFF;
-    color: #AAA;
     padding-left: 5px;
     margin-bottom: 11px;
 }
 
 .panelTitle {
-    color: #AAA;
+    color: #444;
     text-transform: lowercase;
     font-size: 22px;
 }
