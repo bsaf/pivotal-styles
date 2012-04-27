@@ -62,6 +62,16 @@ div#header {
     font-size: 22px;
 }
 
+/* only show column action buttons on hover */
+.panelLink {
+    opacity: 0;
+    -webkit-transition: 0.2s;
+}
+
+.panelHeader:hover .panelLink {
+    opacity: 0.4;
+}
+
 /* ==== No background striping! ==== */
 
 .endOfList {
