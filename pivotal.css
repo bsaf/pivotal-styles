@@ -95,7 +95,8 @@ div#header {
 /* no bottom-border at the end of the list */
 
 .endOfList {
-    border: 0 none;
+    border-bottom: 0 none;
+    border-top: 0 none;
 }
 
 .list > .btm .mid {
