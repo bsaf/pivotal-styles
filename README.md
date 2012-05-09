@@ -1,15 +1,17 @@
 # Custom styles for Pivotal tracker
 
-## Why
+### Why
 
 Because I look at Pivotal a lot.
 
-## Requirements
+### Requirements
 
-* [Stylebot](https://chrome.google.com/webstore/detail/oiaejidbmkiecgbjeifoejpgmdaleoha) for Chrome
-* Only tested on [Chrome Canary](http://tools.google.com/dlpage/chromesxs). Is probably fine on [normal Chrome](https://www.google.com/chrome). Probably.
+- [Stylebot](https://chrome.google.com/webstore/detail/oiaejidbmkiecgbjeifoejpgmdaleoha) for Chrome
+-  Only tested on [Chrome Canary](http://tools.google.com/dlpage/chromesxs). Is probably fine on [normal Chrome](https://www.google.com/chrome). Probably.
 
-## Notes
+### Installation
 
-* Make sure you only apply this style to www.pivotaltracker.com/projects so that it doesn't affect other parts of the site (e.g. login)
-
+- Install Stylebot for Chrome
+- Open Pivotal, navigate to a project
+- Open Stylebot, edit the url from www.pivotaltracker.com to www.pivotaltracker.com/projects so the styles do not affect the rest of the site (e.g. login)
+- Click 'Edit CSS' and paste the contents of the file in
